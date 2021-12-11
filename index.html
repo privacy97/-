@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      #linkstyle {
+        text-decoration: none;
+        color: inherit;
+      }
+      #hrstyle {
+        width: 1085px;
+        height: 3px;
+        text-align: left;
+        margin-left: 0px;
+        background: #ccc;
+      }
+      #div1style {
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+        border: 3px solid #ccc;
+        border-bottom-color: black;
+        border-top-color: black;
+        margin: 10px;
+        font-size: 1.05em;
+        font-weight: bold;
+      }
+      #div2style {
+        width: 130px;
+        height: 25px;
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+        border: 3px solid #ccc;
+        margin: 10px;
+        text-decoration: none;
+        color: inherit;
+      }
+      #div2style:hover {
+        border-bottom-color: black;
+        font-weight: bold;
+      }
+      #div3style {
+        width: 350px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      li {
+        margin: 30px;
+        text-decoration: none;
+        color: inherit"
+      }
+    </style>
+    <title>COVID-19</title>
+  </head>
+  <body>
+    <h2>
+      <a href="index.html" id="linkstyle">
+        코로나바이러스감염증-19(COVID-19)
+      </a>
+      <a href="index.html">
+        <img
+          src="images/home.png"
+          style="position: relative; top: 10px; left: 630px"
+          width="35"
+          height="35"
+          alt="Home_button"
+        />
+      </a>
+    </h2>
+
+    <hr id="hrstyle" />
+
+    <div
+      style="
+        background: #ccc;
+        display: inline-block;
+        width: 1085px;
+        height: 71px;
+      "
+    >
+      <div id="div1style" style="width: 493px; height: 25px">COVID-19 정보</div>
+
+      <div id="div1style" style="width: 312px; height: 25px">발생 동향</div>
+
+      <div id="div1style" style="width: 130px; height: 25px">뉴스</div>
+    </div>
+
+    <div
+      style="
+        background: #ccc;
+        display: inline-block;
+        width: 1085px;
+        height: 71px;
+      "
+    >
+      <a href="Information/information.html"
+        ><div id="div2style" style="color: black">코로나 19란?</div></a
+      >
+
+      <a href="Information/patient.html"
+        ><div id="div2style" style="color: black">환자치료 및 관리</div></a
+      >
+
+      <a href="Information/prevention.html"
+        ><div id="div2style" style="color: black">예방방법</div></a
+      >
+
+      <a href="Occurrence/domestic.html"
+        ><div id="div2style" style="color: black">국내 동향</div></a
+      >
+
+      <a href="Occurrence/adroad.html"
+        ><div id="div2style" style="color: black">해외 동향</div></a
+      >
+
+      <a href="News/news.html"
+        ><div id="div2style" style="color: black">뉴스</div></a
+      >
+    </div>
+
+    <hr id="hrstyle" />
+
+    <div style="width: 1085px">
+      <div id="div3style">
+        <ul>
+          <li type="square" style="font-size: 1.2em; font-weight: bold">
+            정부
+          </li>
+          <ul>
+            <li type="disc">
+              <a href="http://ncov.mohw.go.kr/" onclick="return query1_1()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나 실시간 현황</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a href="https://ncv.kdca.go.kr/" onclick="return query1_2()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 예방접종</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="http://www.mohw.go.kr/react/index.jsp"
+                onclick="return query1_3()"
+                ><span id="linkstyle" style="color: black">보건복지부</span></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://www.kdca.go.kr/index.es?sid=a2"
+                onclick="return query1_4()"
+                ><span id="linkstyle" style="color: black">질병관리청</span></a
+              >
+            </li>
+          </ul>
+        </ul>
+      </div>
+
+      <div id="div3style">
+        <ul>
+          <li type="square" style="font-size: 1.2em; font-weight: bold">
+            네이버
+          </li>
+          <ul>
+            <li type="disc">
+              <a
+                href="https://m.news.naver.com/covid19/index/"
+                onclick="return query2_1()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 현황판</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819+%EC%84%A0%EB%B3%84%EC%A7%84%EB%A3%8C%EC%86%8C&sm=tab_etc"
+                onclick="return query2_2()"
+                ><span id="linkstyle" style="color: black">선별 진료소</span></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://news.naver.com/main/factcheck/main.naver?section=%C4%DA%B7%CE%B3%AA%B9%E9%BD%C5"
+                onclick="return query2_3()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 팩트체크</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%A1%9C%EB%82%9819%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%EC%84%BC%ED%84%B0&sm=tab_etc"
+                onclick="return query2_4()"
+                ><span id="linkstyle" style="color: black"
+                  >예방접종센터</span
+                ></a
+              >
+            </li>
+          </ul>
+        </ul>
+      </div>
+
+      <div id="div3style">
+        <ul>
+          <li type="square" style="font-size: 1.2em; font-weight: bold">
+            구글
+          </li>
+          <ul>
+            <li type="disc">
+              <a
+                href="https://www.google.com/search?q=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%ED%86%B5%EA%B3%84&hl=ko&biw=1486&bih=893&ei=GbmnYdyuIo2m2roPw7SzuAU&ved=0ahUKEwicn5mBmMP0AhUNk1YBHUPaDFcQ4dUDCA4&uact=5&oq=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%ED%86%B5%EA%B3%84&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAEIAEELADMggIABCABBCwAzIJCAAQsAMQBxAeMgkIABCwAxAHEB4yCQgAELADEAcQHjIJCAAQsAMQBxAeMgkIABCwAxAHEB4yCQgAELADEAcQHjIJCAAQsAMQBxAeMgkIABCwAxAHEB5KBAhBGAFQAFgAYM4MaAFwAHgAgAEAiAEAkgEAmAEAyAEKwAEB&sclient=gws-wiz"
+                onclick="return query3_1()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 통계</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://www.google.com/search?q=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%ED%86%B5%EA%B3%84&hl=ko&biw=1486&bih=893&ei=GbmnYdyuIo2m2roPw7SzuAU&ved=0ahUKEwicn5mBmMP0AhUNk1YBHUPaDFcQ4dUDCA4&uact=5&oq=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%ED%86%B5%EA%B3%84&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAEIAEELADMggIABCABBCwAzIJCAAQsAMQBxAeMgkIABCwAxAHEB4yCQgAELADEAcQHjIJCAAQsAMQBxAeMgkIABCwAxAHEB4yCQgAELADEAcQHjIJCAAQsAMQBxAeMgkIABCwAxAHEB5KBAhBGAFQAFgAYM4MaAFwAHgAgAEAiAEAkgEAmAEAyAEKwAEB&sclient=gws-wiz#wptab=s:H4sIAAAAAAAAAONgVuLVT9c3NMwySk6OL8zJecRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18uxiEvbJT07McU4sSU3PL8oEMkMSkxaxyr7ZO-X1wjmvm2YovN4w5c3cLa_nr3nTtUTh1aaGN01rAM7dwi-CAAAA"
+                onclick="return query3_2()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 검사</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://www.google.com/search?q=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EC%A6%9D%EC%83%81&hl=ko&biw=1486&bih=893&ei=L7qnYa6LO9DT-QbI3pewDw&ved=0ahUKEwju3vmFmcP0AhXQad4KHUjvBfYQ4dUDCA4&uact=5&oq=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EC%A6%9D%EC%83%81&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABAeMgQIABAeMgQIABAeSgQIQRgAUABYAGCiA2gAcAB4AIABaIgBaJIBAzAuMZgBAMABAQ&sclient=gws-wiz"
+                onclick="return query3_3()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 증상</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://www.google.com/search?q=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EB%8C%80%EC%B2%98&hl=ko&biw=1486&bih=893&ei=drqnYerJCoLi-Aaw5ru4Cw&ved=0ahUKEwjq3LanmcP0AhUCMd4KHTDzDrcQ4dUDCA4&uact=5&oq=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EB%8C%80%EC%B2%98&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIECAAQHjIECAAQHjIECAAQHjIGCAAQBRAeSgQIQRgAUABYAGCdA2gAcAB4AIABbIgBbJIBAzAuMZgBAMABAQ&sclient=gws-wiz"
+                onclick="return query3_4()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 대응</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://www.google.com/search?q=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EB%B3%80%EC%9D%B4&hl=ko&biw=1486&bih=893&ei=f7qnYbHMK7eB1e8P9JOR4Ak&ved=0ahUKEwjxh_2rmcP0AhW3QPUHHfRJBJwQ4dUDCA4&uact=5&oq=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EB%B3%80%EC%9D%B4&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAESgQIQRgAUABYAGCDCGgAcAB4AIABeIgBeJIBAzAuMZgBAMABAQ&sclient=gws-wiz"
+                onclick="return query3_5()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 변이</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://www.google.com/search?q=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EC%98%88%EB%B0%A9&hl=ko&biw=1486&bih=893&ei=jbqnYffIEdfn-QbYwqDABQ&ved=0ahUKEwi3w7mymcP0AhXXc94KHVghCFgQ4dUDCA4&uact=5&oq=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EC%98%88%EB%B0%A9&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeSgQIQRgAUABYAGCUA2gAcAB4AIABa4gBa5IBAzAuMZgBAMABAQ&sclient=gws-wiz"
+                onclick="return query3_6()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 예방</span
+                ></a
+              >
+            </li>
+            <li type="disc">
+              <a
+                href="https://www.google.com/search?q=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EC%B9%98%EB%A3%8C&hl=ko&biw=1486&bih=893&ei=nLqnYf-pGo7N-QaN4abICQ&ved=0ahUKEwj_59W5mcP0AhWOZt4KHY2wCZkQ4dUDCA4&uact=5&oq=%EC%BD%94%EB%A1%9C%EB%82%98+%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4+%EC%B9%98%EB%A3%8C&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB5KBAhBGABQAFgAYJwBaABwAHgAgAF0iAF0kgEDMC4xmAEAwAEB&sclient=gws-wiz"
+                onclick="return query3_7()"
+                ><span id="linkstyle" style="color: black"
+                  >코로나-19 치료</span
+                ></a
+              >
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <script>
+      function query1_1() {
+        var ret = confirm('코로나 실시간 현황(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query1_2() {
+        var ret = confirm('코로나-19 예방접종(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query1_3() {
+        var ret = confirm('보건복지부(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query1_4() {
+        var ret = confirm('질병관리청(으)로 이동하시겠습니까?')
+        return ret
+      }
+
+      function query2_1() {
+        var ret = confirm('코로나-19 현황판(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query2_2() {
+        var ret = confirm('선별 진료소(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query2_3() {
+        var ret = confirm('코로나-19 팩트체크(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query2_4() {
+        var ret = confirm('예방접종센터(으)로 이동하시겠습니까?')
+        return ret
+      }
+
+      function query3_1() {
+        var ret = confirm('코로나-19 통계(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query3_2() {
+        var ret = confirm('코로나-19 검사(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query3_3() {
+        var ret = confirm('코로나-19 증상(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query3_4() {
+        var ret = confirm('코로나-19 대응(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query3_5() {
+        var ret = confirm('코로나-19 변이(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query3_6() {
+        var ret = confirm('코로나-19 예방(으)로 이동하시겠습니까?')
+        return ret
+      }
+      function query3_7() {
+        var ret = confirm('코로나-19 치료(으)로 이동하시겠습니까?')
+        return ret
+      }
+    </script>
+  </body>
+</html>
